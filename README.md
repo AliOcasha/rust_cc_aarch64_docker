@@ -5,5 +5,5 @@ This Toolchain uses musl for static linking and is tested on a Raspberry Pi 3 Mo
 To run you run following command
 ```
 docker build . -t rust_cc_aarch64
-docker run -v <path-of-your-application>:/project> -it rust_cc_aarch64
+docker run -v <path-of-your-application>:/project -it rust_cc_aarch64
 ```
